@@ -1,0 +1,42 @@
+.collapse {
+    display: flex;
+    justify-content: end;
+}
+.navbar p{
+    padding-top: 18px;
+
+}
+.dot{
+    background-color: chocolate;
+    border-radius: 50%;
+    height: 25px;
+    width: 25px;
+}
+.img img{
+    width: 480px;
+    height: 480px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.abouu{
+    display: flex;
+    height: auto;
+    position: relative;
+    width: 100%;
+}
+.res{
+    background-color: chocolate;
+    /* border: solid; */
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+}
+.cir{
+    display: flex;
+}
+.bott{
+    display: flex;
+    /* justify-content: ; */
+}

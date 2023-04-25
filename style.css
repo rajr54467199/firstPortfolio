@@ -1,16 +1,25 @@
 .collapse {
     display: flex;
     justify-content: end;
+    font-size: 16px;
 }
 .navbar p{
     padding-top: 18px;
+    font-size: 16px;    
 
 }
+.navbar-brand{
+    padding-left: 15px;
+    font-size: 22px;
+}
 .dot{
-    background-color: chocolate;
+    background-color: #EEA302;
     border-radius: 50%;
     height: 25px;
     width: 25px;
+}
+.cont{
+    background:;
 }
 .img img{
     width: 480px;
@@ -18,25 +27,55 @@
     object-fit: cover;
     border-radius: 50%;
 }
+.img{
+    display: flex;
+    justify-content: center;
+}
 .abouu{
     display: flex;
     height: auto;
     position: relative;
     width: 100%;
+    margin: 150px 0px 150px 0px;
 }
 .res{
-    background-color: chocolate;
-    /* border: solid; */
+    background-color: #EEA302;
     border-radius: 50%;
     width: 150px;
     height: 150px;
     display: flex;
     align-items: center;
+    padding-left: 50px;
+}
+.pro{
+    background-color: green;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    padding-left: 50px;
+}
+.con{
+    background-color: blue;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    padding-left: 50px;
 }
 .cir{
     display: flex;
+    justify-content: space-around;
 }
 .bott{
-    display: flex;
-    /* justify-content: ; */
+    display: flex   ;
+    font-size: 16px;
+    font-weight: bold;
+}
+.nav-link{
+    border-right: 1.5px solid black;
+    padding-top: 0px;
+    padding-bottom: 0px;
 }

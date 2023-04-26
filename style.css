@@ -19,7 +19,7 @@
     width: 25px;
 }
 .cont{
-    background:;
+    background-color: #f3f3f300;
 }
 .img img{
     width: 480px;
@@ -37,6 +37,17 @@
     position: relative;
     width: 100%;
     margin: 150px 0px 150px 0px;
+}
+.abouu h1{
+    font-size: 100px;
+}
+.abouu .para1{
+    font-size: 22px;
+    font-weight: bold;
+}
+.abouu .para2{
+    line-height: 1.6em;
+    font-size: 16px;
 }
 .res{
     background-color: #EEA302;

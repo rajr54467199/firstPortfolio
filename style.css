@@ -90,3 +90,21 @@
     padding-top: 0px;
     padding-bottom: 0px;
 }
+/* .fdiv{
+    padding: 100px;
+} */
+.maindiv{
+    padding-left: 100px;
+    padding-top: 100px;
+}
+.indiv{
+    display: flex;
+    padding-top: 50px;
+}
+.exdiv{
+    display: flex;
+}
+.secmaindiv{
+    padding-left: 100px;
+    padding-top: 20px;
+}

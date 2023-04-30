@@ -107,4 +107,37 @@
 .secmaindiv{
     padding-left: 100px;
     padding-top: 20px;
+    display: flex;
+}
+.secexdiv{
+    display: flex;
+}
+.thirdmaindiv{
+    padding-left: 100px;
+    padding-top: 20px;
+    display: flex;
+}
+.thirdoutdiv{
+    display: flex;
+}
+.fourthmaindiv{
+    padding-left: 100px;
+    padding-top: 20px;
+    display: flex;
+}
+.fourthoutdiv{
+    display: flex;
+}
+.fifthmaindiv{
+    padding-left: 100px;
+    padding-top: 20px;
+    display: flex;
+}
+.fifthoutdiv{
+    display:flex ;
+}
+.cmain{
+    padding-left: 100px;
+    padding-top: 60px;
+    display: flex;
 }

@@ -1,3 +1,6 @@
+body{
+    background-color: #F3F3F3;
+}
 .collapse {
     display: flex;
     justify-content: end;
@@ -11,6 +14,7 @@
 .navbar-brand{
     padding-left: 15px;
     font-size: 22px;
+    font-weight: bold;
 }
 .dot{
     background-color: #EEA302;
@@ -40,50 +44,79 @@
 }
 .abouu h1{
     font-size: 100px;
+    font-family: worksans-semibold
+    "work sans"
+    ;
 }
 .abouu .para1{
     font-size: 22px;
     font-weight: bold;
+    font-family: worksans-semibold
+"work sans"
+sans-serif;
 }
 .abouu .para2{
     line-height: 1.6em;
     font-size: 16px;
+    font-family: avenir-lt-w01_35-light1475496avenir-lt-w05_35-lightsans-serif;
 }
 .res{
-    background-color: #EEA302;
+    background-color: #EDA435;
     border-radius: 50%;
     width: 150px;
+    border: 1px solid;
+    border-color: black;
     height: 150px;
     display: flex;
     align-items: center;
-    padding-left: 50px;
+    justify-content: center;
+    font-size: 22px;
+}
+.res:hover{
+    background-color: #F3F3F3;
 }
 .pro{
-    background-color: green;
+    background-color: #FA423B;
     border-radius: 50%;
+    border: 1px solid;
     width: 150px;
     height: 150px;
     display: flex;
     align-items: center;
-    padding-left: 50px;
+    justify-content: center;
+    font-size: 22px;
+}
+.pro:hover{
+    background-color: #F3F3F3;
+
 }
 .con{
-    background-color: blue;
+    background-color: #80D8DA;
     border-radius: 50%;
+    border: 1px solid;
     width: 150px;
     height: 150px;
     display: flex;
     align-items: center;
-    padding-left: 50px;
+    justify-content: center;
+    font-size: 22px;
+}
+.con:hover{
+    background-color:#F3F3F3;
 }
 .cir{
     display: flex;
     justify-content: space-around;
 }
-.bott{
+.cir a{
+    text-decoration: none;
+    color: black;
+}
+.bottom{
     display: flex   ;
     font-size: 16px;
     font-weight: bold;
+    text-align: center;
 }
 .nav-link{
     border-right: 1.5px solid black;
@@ -96,6 +129,14 @@
 .maindiv{
     padding-left: 100px;
     padding-top: 100px;
+}
+.email1 .email2{
+    font-weight: 400;
+    font-size: 16px;
+}
+.phone1 .phone2{
+    font-weight: 400;
+    font-size: 16px;
 }
 .indiv{
     display: flex;
@@ -140,4 +181,85 @@
     padding-left: 100px;
     padding-top: 60px;
     display: flex;
+    padding-bottom: 150px;
 }
+.cmain h1{
+    font-size: 42px;
+}
+.phone1{
+    font-size: 18px;
+    font-weight: bold;
+}
+.email1{
+    font-size: 18px ;
+    font-weight: bold;
+}
+.box{
+    width: 215px;
+    height: 45px;
+    display: flex;
+    background-color: #F3F3F3;
+}
+.box1{
+    width: 300px;
+    height: 141px;
+    display: flex;
+    background-color: #F3F3F3   ;
+    }
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  label {
+    display: inline-block;
+    width: 100px;
+  }
+  .form1{
+    display: flex;
+  }
+  .form2{
+    display: flex;
+  }
+  .form3{
+    display: flex;
+    flex-direction: column;
+    padding-right: 25px;
+    /* padding: 3px 3px 3px 7px; */
+  }
+  .message{
+    padding-right: 41px;
+    display: flex;
+    align-items: center;
+
+  } 
+  /* .button1{
+    height: 140px;
+    width: 140px;
+    border-radius: 100%;
+    background-color: #EEA302; */
+  /* } */
+  .submitbutton{
+    padding-left: 5px;
+  }
+  .projectsp{
+    margin-top: 50px;
+    margin-left: 100px;
+  }
+  .project1{
+    margin-top: 50px;
+    margin-left: 100px;
+    display: flex;
+  }
+  .project1 p{
+    font-size: 16px;
+  }
+  .projectname1{
+    font-size: 26px;
+  }
+  .projectimg1{
+    height: 331px;
+    width: 491px;
+  }
+
+  

@@ -13,9 +13,9 @@
     <div class="container">
     <nav class="navbar navbar-expand-lg ">
         <div class="container-fluid">
-            <div class="dot">
+          <a href="myFirstFile.html"><div class="dot">
 
-            </div>
+          </div></a>
           <a class="navbar-brand pl-3" href="#">Rajesh</a>
           <p>Software developer</p>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -30,10 +30,10 @@
                 <a class="nav-link" href="resume.html">Resume</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Projects </a>
+                <a class="nav-link" href="projects.html">Projects </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link">Contact</a>
+                <a class="nav-link" href="contact.html">Contact</a>
               </li>
             </ul>
           </div>
@@ -43,29 +43,62 @@
         <div class="col-6">
             <h1>Contact</h1>
             <p>Looking forward to hearing from you</p>
-            <span>Phone</span>
+            <span class="phone1">Phone</span>
             <p>9655718530</p>
-            <p>Email</p>
+            <p class="email1">Email</p>
             <p>rajeshrajendran405@gmail.com</p>
         </div>
-        <div class="col-6">
+        <div class="col-6 fdiv">
             <form action="submit-form.php" method="POST">
-                <label for="name">FirstName:</label>
-                <input type="text" id="name" name="name"><br>
-                <label for="name">LastName:</label>
-                <input type="text" id="name" name="name"><br>
-        
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email"><br>
-        
-                <label for="message">Message:</label>
-                <textarea id="message" name="message"></textarea><br>
-        
-                <input type="submit" value="Submit">
+              <div class="form1">
+                <div class="form3">
+                <label for="name">FirstName</label>
+                <input type="text" id="name" name="name" class="form-control">
+              </div>
+              <div class="form3">
+                <label for="name">LastName</label>
+                <input type="text" id="name" name="name" class="form-control">
+              </div>
+              </div>
+              <div class="form2">
+                <div class="form3">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" class="form-control">
+              </div>
+              <div class="form3">
+                <label for="email">Subject</label>
+                <input type="email" id="email" name="email" class="form-control">
+              </div>
+              </div>
+              <div class="message">
+                <div>
+                <label for="message">Message</label>
+                <textarea id="message" name="message" class="form-control"></textarea>
+              </div>
+              <div class="submitbutton">
+                <input type="submit" value="Submit" class="btn btn-warning button1">
+              </div>  
+              </div>
             </form>
 
         </div>
       </div>
+      <hr>
+      <div class="bottom">
+        <div class="col-4 phone1">
+           <p>Phone</p> 
+            <p class="phone2">9655718530</p> 
+        </div>
+        <div class="col-4 email1">
+            <p>Email</p> 
+            <p class="email2">rajeshrajendran405@gmail.com</p> 
+        </div>
+        <div class="col-4">
+            <p>Follow Me</p> 
+            <a href="https://www.linkedin.com/in/rajesh-r-79302921a" target="_blank"><img src="./images/6ea5b4a88f0b4f91945b40499aa0af00.webp" alt=""></a>
+            <a href="https://twitter.com/rajeshr54467196?t=_FnikjjszeCm76aD5MpHqQ&s=09" target="_blank"><img src="./images/c7d035ba85f6486680c2facedecdcf4d.webp" alt=""></a>
+        </div>
+    </div>
     </div>
 </body>
 </html>

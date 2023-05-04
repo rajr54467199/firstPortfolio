@@ -67,6 +67,9 @@ sans-serif;
     line-height: 1.6em;
     font-size: 16px;
     font-family: avenir-lt-w01_35-light1475496avenir-lt-w05_35-lightsans-serif;
+    line-height: 1.8em;
+    text-align: justify;
+    font-weight: 500;   
 }
 .res{
     background-color: #EDA435;
@@ -109,6 +112,25 @@ sans-serif;
     justify-content: center;
     font-size: 22px;
 }
+.contactbody{
+    background-image: url(images/pexels-photo-1037999.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    backdrop-filter: blur(5px);
+
+}
+.resumebody{
+    background-image: url(images/pexels-henry-&-co-1939485.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    backdrop-filter: blur(5px);
+}
+/* .projectbody{
+    background-image: url(images/pexels-photo-4210787.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    backdrop-filter: blur(5px);
+} */
 .con:hover{
     background-color:#F3F3F3;
 }
@@ -120,7 +142,7 @@ sans-serif;
     text-decoration: none;
     color: black;
 }
-.bottom{
+.row{
     display: flex   ;
     font-size: 16px;
     font-weight: bold;
@@ -278,5 +300,124 @@ form {
     font-size: 18px;
     font-weight: bold;
   }
+  .designation p{
+    text-align: justify;
+    font-weight: 400;
+    line-height: 1.8em;
+  }
+  .year{
+    font-weight: 400;
+  }
+  .degree p{
+    font-weight: 400;
+  }
+  .hsc p{
+    font-weight: 400;
+  }
+  .sslc p{
+    font-weight: 400;
+  }
+  .skills li{
+    font-weight: 400;
+  }
+  .experience h2{
+    text-align: start;
+  }
+  .education h2{
+    text-align: start;
+  }
+  .pro1 p{
+    font-weight: 400;
+    text-align: justify;
+  }
+  .pro2 p{
+    font-weight: 400;
+    text-align: justify;
+  }
+  @media (min-width:320px) and (max-width:480px){
+    .img img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%; 
+    }
 
-  
+    .about h1{
+        font-size: 40px;
+    }
+    .para1{
+        font-size: 12px;
+    }
+    .para2{
+        font-size: 10px;
+    }
+    .abouu{
+        flex-direction: column;
+}
+    .dot{
+        height: 13px;
+        width: 13px;
+    }
+    .res{
+        height: 75px;
+        width: 75px;
+        font-size: 12px;
+    }
+    .pro{
+        height: 75px;
+        width: 75px;
+        font-size: 12px;
+    }
+    .con{
+        height: 75px;
+        width: 75px;
+        font-size: 12px;
+    }
+    .navbar-brand{
+        font-size: 12px;
+    }
+    .navbar p{
+        font-size: 12px;
+    }
+    .maindiv{
+        padding-left: 0px;
+        padding-top: 0px;
+    }
+    .secmaindiv{
+        padding-left: 0px;
+        padding-top: 0px;
+    }
+    .thirdmaindiv{
+        padding-left: 0px;
+        padding-top: 0px;
+    }
+    .fourthmaindiv{
+        padding-left: 0px;
+        padding-top: 0px;
+    }
+    .fifthmaindiv{
+        padding-left: 0px;
+        padding-top: 0px;
+    }
+    .cmain{
+        padding-left: 0px;
+    padding-top: 0px;
+    flex-direction: column;
+    }
+    .message{
+        padding-right: 0px;
+    }
+    .project1{
+        margin-top: 0px;
+        margin-left: 0px;
+    }
+    .img1 img{
+        height: 165px;
+         width: 245px;
+    } 
+    .img2 img{
+        height: 165px;
+    width: 245px;
+    }
+    }
+    

@@ -142,11 +142,10 @@ sans-serif;
     text-decoration: none;
     color: black;
 }
-.row{
+.fifthmaindiv{
     display: flex   ;
     font-size: 16px;
     font-weight: bold;
-    text-align: center;
 }
 .nav-link{
     border-right: 1.5px solid black;
@@ -320,12 +319,6 @@ form {
   .skills li{
     font-weight: 400;
   }
-  .experience h2{
-    text-align: start;
-  }
-  .education h2{
-    text-align: start;
-  }
   .pro1 p{
     font-weight: 400;
     text-align: justify;
@@ -333,6 +326,15 @@ form {
   .pro2 p{
     font-weight: 400;
     text-align: justify;
+  }
+  .htmlimg{
+    height: 200px;
+    width: 200px;
+    border-radius: 50px;
+  }
+  .skillimg img{
+    height: 400px;
+    width: 400px;
   }
   @media (min-width:320px) and (max-width:480px){
     .img img{
@@ -406,6 +408,7 @@ form {
     .cmain{
         padding-left: 0px;
     padding-top: 0px;
+    padding-bottom: 50px;
     flex-direction: column;
     }
     .message{
@@ -423,5 +426,12 @@ form {
         height: 165px;
     width: 245px;
     }
+    .skillimg img{
+        height: 250px;
+        width: 250px;
+      }
+      .bottom{
+        text-align: center;
+      }
     }
     

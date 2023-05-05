@@ -32,6 +32,7 @@ body{
 }
 .cont{
     background-color: #f3f3f300;
+    overflow: hidden;
 }
 .img img{
     width: 480px;
@@ -49,6 +50,7 @@ body{
     position: relative;
     width: 100%;
     margin: 150px 0px 150px 0px;
+    overflow: hidden;
 }
 .abouu h1{
     font-size: 100px;
@@ -273,6 +275,7 @@ form {
   }
   .submitbutton{
     padding-left: 5px;
+    padding-top: 15px;
   }
   .projectsp{
     margin-top: 50px;
@@ -307,16 +310,12 @@ form {
   .year{
     font-weight: 400;
   }
-  .degree p{
-    font-weight: 400;
-  }
-  .hsc p{
-    font-weight: 400;
-  }
-  .sslc p{
-    font-weight: 400;
-  }
-  .skills li{
+  .deg{
+    border: 2px solid;
+    border-color: #2CB2BD;
+    border-radius: 25px;
+    text-align: center;
+    background-color: #2CB2BD;
     font-weight: 400;
   }
   .pro1 p{
@@ -335,6 +334,11 @@ form {
   .skillimg img{
     height: 400px;
     width: 400px;
+  }
+  .fdiv{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
   }
   @media (min-width:320px) and (max-width:480px){
     .img img{

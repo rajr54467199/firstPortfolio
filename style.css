@@ -332,13 +332,18 @@ form {
     border-radius: 50px;
   }
   .skillimg img{
-    height: 400px;
-    width: 400px;
+    height: 500px;
+    width: 500px;
   }
   .fdiv{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+  }
+  .edu{
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
   }
   @media (min-width:320px) and (max-width:480px){
     .img img{
@@ -431,8 +436,8 @@ form {
     width: 245px;
     }
     .skillimg img{
-        height: 200px;
-        width: 200px;
+        height: 280px;
+        width: 280px;
       }
       .bottom{
         text-align: center;

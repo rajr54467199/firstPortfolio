@@ -115,7 +115,7 @@ sans-serif;
     font-size: 22px;
 }
 .contactbody{
-    background-image: url(images/pexels-photo-1037999.webp);
+    background-image: url(images/images\ \(1\).jpeg);
     background-repeat: no-repeat;
     background-size: cover;
     backdrop-filter: blur(5px);
@@ -345,6 +345,18 @@ form {
     flex-direction: column;
     row-gap: 30px;
   }
+  .logo a{
+    color: black;
+  }
+  @keyframes blink {
+    0% {opacity: 1;}
+    50% {opacity: 0;}
+    100% {opacity: 1;}
+}
+.blink {
+    animation: blink 1s infinite;
+    color: red;
+}
   @media (min-width:320px) and (max-width:480px){
     .img img{
     width: 320px;

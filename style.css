@@ -1,0 +1,458 @@
+body{
+    background-color: #F3F3F3;
+}
+/* .projectbody{
+    back
+} */
+/* .contactbody{
+    background-image: url(images/photo-1596524430615-b46475ddff6e.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+} */
+.collapse {
+    display: flex;
+    justify-content: end;
+    font-size: 16px;
+}
+.navbar p{
+    padding-top: 18px;
+    font-size: 16px;    
+
+}
+.navbar-brand{
+    padding-left: 15px;
+    font-size: 22px;
+    font-weight: bold;
+}
+.dot{
+    background-color: #EEA302;
+    border-radius: 50%;
+    height: 25px;
+    width: 25px;
+}
+.cont{
+    background-color: #f3f3f300;
+    overflow: hidden;
+}
+.img img{
+    width: 480px;
+    height: 480px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.img{
+    display: flex;
+    justify-content: center;
+}
+.abouu{
+    display: flex;
+    height: auto;
+    position: relative;
+    width: 100%;
+    margin: 150px 0px 150px 0px;
+    overflow: hidden;
+}
+.abouu h1{
+    font-size: 100px;
+    font-family: worksans-semibold
+    "work sans"
+    ;
+}
+.abouu .para1{
+    font-size: 22px;
+    font-weight: bold;
+    font-family: worksans-semibold
+"work sans"
+sans-serif;
+}
+.abouu .para2{
+    line-height: 1.6em;
+    font-size: 16px;
+    font-family: avenir-lt-w01_35-light1475496avenir-lt-w05_35-lightsans-serif;
+    line-height: 1.8em;
+    text-align: justify;
+    font-weight: 500;   
+}
+.res{
+    background-color: #EDA435;
+    border-radius: 50%;
+    width: 150px;
+    border: 1px solid;
+    border-color: black;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+}
+.res:hover{
+    background-color: #F3F3F3;
+}
+.pro{
+    background-color: #FA423B;
+    border-radius: 50%;
+    border: 1px solid;
+    width: 150px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+}
+.pro:hover{
+    background-color: #F3F3F3;
+
+}
+.con{
+    background-color: #80D8DA;
+    border-radius: 50%;
+    border: 1px solid;
+    width: 150px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+}
+.contactbody{
+    background-image: url(images/images\ \(1\).jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    backdrop-filter: blur(5px);
+
+}
+.resumebody{
+    background-image: url(images/pexels-henry-&-co-1939485.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    backdrop-filter: blur(5px);
+}
+/* .projectbody{
+    background-image: url(images/pexels-photo-4210787.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    backdrop-filter: blur(5px);
+} */
+.con:hover{
+    background-color:#F3F3F3;
+}
+.cir{
+    display: flex;
+    justify-content: space-around;
+}
+.cir a{
+    text-decoration: none;
+    color: black;
+}
+.fifthmaindiv{
+    display: flex   ;
+    font-size: 16px;
+    font-weight: bold;
+}
+.nav-link{
+    border-right: 1.5px solid black;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+/* .fdiv{
+    padding: 100px;
+} */
+.maindiv{
+    padding-left: 100px;
+    padding-top: 100px;
+}
+.email1 .email2{
+    font-weight: 400;
+    font-size: 16px;
+}
+.phone1 .phone2{
+    font-weight: 400;
+    font-size: 16px;
+}
+.indiv{
+    display: flex;
+    padding-top: 50px;
+}
+.exdiv{
+    display: flex;
+}
+.secmaindiv{
+    padding-left: 100px;
+    padding-top: 20px;
+    display: flex;
+}
+.secexdiv{
+    display: flex;
+}
+.thirdmaindiv{
+    padding-left: 100px;
+    padding-top: 20px;
+    display: flex;
+}
+.thirdoutdiv{
+    display: flex;
+}
+.fourthmaindiv{
+    padding-left: 100px;
+    padding-top: 20px;
+    display: flex;
+}
+.fourthoutdiv{
+    display: flex;
+}
+.fifthmaindiv{
+    padding-left: 100px;
+    padding-top: 20px;
+    display: flex;
+}
+.fifthoutdiv{
+    display:flex ;
+}
+.cmain{
+    padding-left: 100px;
+    padding-top: 60px;
+    display: flex;
+    padding-bottom: 150px;
+}
+.cmain h1{
+    font-size: 42px;
+}
+.phone1{
+    font-size: 18px;
+    font-weight: bold;
+}
+.email1{
+    font-size: 18px ;
+    font-weight: bold;
+}
+.box{
+    width: 215px;
+    height: 45px;
+    display: flex;
+    background-color: #F3F3F3;
+}
+.box1{
+    width: 300px;
+    height: 141px;
+    display: flex;
+    background-color: #F3F3F3   ;
+    }
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  label {
+    display: inline-block;
+    width: 100px;
+  }
+  .form1{
+    display: flex;
+  }
+  .form2{
+    display: flex;
+  }
+  .form3{
+    display: flex;
+    flex-direction: column;
+    padding-right: 25px;
+    /* padding: 3px 3px 3px 7px; */
+  }
+  .message{
+    padding-right: 41px;
+    display: flex;
+    align-items: center;
+
+  } 
+  /* .button1{
+    height: 140px;
+    width: 140px;
+    border-radius: 100%;
+    background-color: #EEA302; */
+  /* } */
+  .message{
+    padding-right: 180px
+  }
+  .submitbutton{
+    padding-left: 5px;
+    padding-top: 15px;
+  }
+  .projectsp{
+    margin-top: 50px;
+    margin-left: 100px;
+  }
+  .project1{
+    margin-top: 50px;
+    margin-left: 100px;
+    display: flex;
+    padding-bottom: 100px;
+  }
+  .project1 p{
+    font-size: 16px;
+  }
+  .projectname1{
+    font-size: 18px;
+    font-weight: bold;
+  }
+  .projectimg1{
+    height: 331px;
+    width: 491px;
+  }
+  .projectname2{
+    font-size: 18px;
+    font-weight: bold;
+  }
+  .designation p{
+    text-align: justify;
+    font-weight: 400;
+    line-height: 1.8em;
+  }
+  .year{
+    font-weight: 400;
+  }
+  .deg{
+    border: 2px solid;
+    border-color: #2CB2BD;
+    border-radius: 25px;
+    text-align: center;
+    background-color: #2CB2BD;
+    font-weight: 400;
+  }
+  .pro1 p{
+    font-weight: 400;
+    text-align: justify;
+  }
+  .pro2 p{
+    font-weight: 400;
+    text-align: justify;
+  }
+  .htmlimg{
+    height: 200px;
+    width: 200px;
+    border-radius: 50px;
+  }
+  .skillimg img{
+    height: 500px;
+    width: 500px;
+  }
+  .fdiv{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .edu{
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+  }
+  .logo a{
+    color: black;
+  }
+  @keyframes blink {
+    0% {opacity: 1;}
+    50% {opacity: 0;}
+    100% {opacity: 1;}
+}
+.blink {
+    animation: blink 1s infinite;
+    color: red;
+}
+  @media (min-width:320px) and (max-width:480px){
+    .img img{
+    width: 320px;
+    height: 320px;
+    object-fit: cover;
+    border-radius: 50%; 
+    }
+
+    .about h1{
+        font-size: 40px;
+    }
+    .para1{
+        font-size: 12px;
+    }
+    .para2{
+        font-size: 10px;
+    }
+    .abouu{
+        flex-direction: column;
+}
+    .dot{
+        height: 13px;
+        width: 13px;
+    }
+    .res{
+        height: 90px;
+        width: 90px;
+        font-size: 12px;
+    }
+    .pro{
+        height: 90px;
+        width: 90px;
+        font-size: 12px;
+    }
+    .con{
+        height: 90px;
+        width: 90px;
+        font-size: 12px;
+    }
+    .navbar-brand{
+        font-size: 18px;
+        padding-left: 0px;
+    }
+    .navbar p{
+        font-size: 13px;
+    }
+    .abouu{
+        margin: 50px 0px 50px 0px;
+    }
+    .maindiv{
+        padding-left: 0px;
+        padding-top: 0px;
+    }
+    .secmaindiv{
+        padding-left: 0px;
+        padding-top: 0px;
+    }
+    .thirdmaindiv{
+        padding-left: 0px;
+        padding-top: 0px;
+    }
+    .fourthmaindiv{
+        padding-left: 0px;
+        padding-top: 0px;
+    }
+    .fifthmaindiv{
+        padding-left: 0px;
+        padding-top: 0px;
+    }
+    .cmain{
+        padding-left: 0px;
+    padding-top: 0px;
+    padding-bottom: 50px;
+    flex-direction: column;
+    }
+    .message{
+        padding-right: 0px;
+    }
+    .project1{
+        margin-top: 0px;
+        margin-left: 0px;
+    }
+    .img1 img{
+        height: 280px;
+         width: 280px;
+    } 
+    .img2 img{
+        height: 280px;
+    width: 280px;
+    }
+    .skillimg img{
+        height: 280px;
+        width: 280px;
+      }
+      .bottom{
+        text-align: center;
+      }
+    }
+    

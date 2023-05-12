@@ -69,7 +69,7 @@
           <!-- <form action="submit-form.php" method="POST"> -->
               <div class="form3">
                 <label for="name">Name</label>
-                <input type="text" id="name" name="name" class="form-control" />
+                <input type="text" id="uname" name="name" class="form-control" />
               </div>
               <div class="form3">
                 <label for="email">Email</label>
@@ -90,9 +90,9 @@
               </div>
               <div class="submitbutton">
                 <input
-                  type="submit"
-                  value="Submit"
-                  class="btn btn-warning button1"
+                  type="button"
+                  value="submit"
+                  class="btn btn-warning button1" onclick="submitbutton()"
                 />
               </div>
           <!-- </form> -->
@@ -118,5 +118,7 @@
         </div>
       </div>
     </div>
+    <script src="./script.js"></script>
+
   </body>
 </html>
